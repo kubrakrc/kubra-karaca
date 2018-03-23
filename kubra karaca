@@ -1,4 +1,4 @@
-package sevaltek;
+package kubra;
 import java.util.Random;
 import javax.swing.JFrame;
 import javax.swing.JPanel;
@@ -7,7 +7,7 @@ import javax.swing.JButton;
 import javax.swing.JLabel;
 import javax.swing.JOptionPane;
 import java.awt.*;
-public class seval extends JFrame {
+public class kbr extends JFrame {
 
 	private JPanel contentPane;
 
@@ -15,16 +15,12 @@ public class seval extends JFrame {
 		EventQueue.invokeLater(new Runnable() {
 			public void run() {
 				try {
-					seval frame = new seval();
+					kbr frame = new kbr();
 					frame.setVisible(true);
 				} catch (Exception e) {
 					e.printStackTrace();
 				}}});}
-
-	/**
-	 * Create the frame.
-	 */
-	public seval() {
+	public kbr() {
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setBounds(100, 100, 400, 400);
 		contentPane = new JPanel();
